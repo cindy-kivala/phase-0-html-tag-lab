@@ -1,0 +1,111 @@
+style>
+  body {
+    margin: 40px;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 10px 0 40px;
+    display: block;
+}
+  .background-image {
+    background-image: "https://one-banijaygroup-production.s3.eu-west-1.amazonaws.com/store/responsiveimage/26/xlarge/cropped-82a5eb3373238d783b82fcf1436498ae.png";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:auto;
+    width: 100%;
+    position: relative;
+    display: block;;
+  }
+  .page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-nav {
+    align-items: end;
+    background-image:background-image: url(https://one-banijaygroup-production.s3.eu-west-1.amazonaws.com/store/responsiveimage/26/xlarge/cropped-82a5eb3373238d783b82fcf1436498ae.png);
+    color: pink;
+  }
+   main {
+    flex: 1;
+    padding: 20px 30px;
+   }
+  .image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .overlay-texr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow:1px 1px 5px rgba(0,0,0,0.7);
+    text-align: center;
+  }
+   h1 {
+    text-align:center;
+    color: black;
+    font-family: sharp_grotsque, sans-serif;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  button {
+    background-color: rgb(209, 63, 87);
+    border-radius: 5px 10px;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 30px;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #5c013f;
+  }
+  .site-footer {
+    background-color: #5c013f;    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    font-size: 0.85em;
+    position: relative;
+    display: inline-block;
+    unicode-bidi: isolate;
+  }
+  .site-footer p {
+    margin: 0;
+  }
+  .site-footer a {
+    color: #5c013f;
+    text-decoration: none;
+  }
+  .site-footer-links {
+    display: block;
+    margin:auto
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+  }
